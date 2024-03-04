@@ -19,7 +19,7 @@ const Features = () => {
         </div>
         <div className=" md:w-2/3 w-full">
           <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-          <p>
+          <p className=" dark:text-[#ccc9c9] text-primary">
             Lorem ipsum, dolor sit amet consectetur apdipisicing elit. Sint, in
             non cupiditate laudantium accusantium illo maiores accusamus natus
             suscipit quibusdam?
