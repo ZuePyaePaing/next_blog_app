@@ -24,7 +24,7 @@ const Navbar = () => {
           <FaLinkedin size={25} color="#0077B5" />
         </div>
         <Link href={"/"}>
-          <h1 className=" font-mons font-bold md:text-3xl text-xl">ZPP Blog</h1>
+          <h1 className=" font-mons font-bold md:text-3xl text-xl">ZPPblog</h1>
         </Link>
         <div className=" flex items-center space-x-4 relative">
           <Darkmode />

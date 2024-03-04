@@ -1,14 +1,16 @@
 import { Montserrat, Roboto_Mono } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "./components";
+import { Footer, Navbar } from "./components";
 import ThemeProvider from "@/providers/ThemeProvider";
 import { ThemeContextProvider } from "@/context/ThemeContext";
+
 
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-montserrat",
 });
+
 const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
   display: "swap",
@@ -28,6 +30,7 @@ export default function RootLayout({ children }) {
           <ThemeProvider>
             <Navbar />
             <main>{children}</main>
+            <Footer/>
           </ThemeProvider>
         </ThemeContextProvider>
       </body>

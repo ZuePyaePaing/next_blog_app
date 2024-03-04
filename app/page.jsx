@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Categories, Features } from "./components";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <section className="darkmode padding-mergin ">
+      <Features />
+      <Categories />
+    </section>
+  );
+};
 
-export default Home
+export default Home;

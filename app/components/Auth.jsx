@@ -8,14 +8,14 @@ const Auth = () => {
     return (
       <div className=" space-x-3">
         <Link href={"/write"}>Write</Link>
-        <Link href={"/write"}>Logout</Link>
+        <Link href={"/"}>Logout</Link>
       </div>
     );
   }
   return (
     <div className=" space-x-3">
       <Link href={"/write"}>Write</Link>
-      <Link href={"/write"}>Login</Link>
+      <Link href={"/login"}>Login</Link>
     </div>
   );
 };

@@ -3,14 +3,27 @@
 @tailwind components;
 @tailwind utilities;
 
+h2{
+  @apply md:text-2xl text-xl font-bold mb-4
+}
 .container {
   @apply md:max-w-6xl w-full mx-auto md:px-4 px-2;
 }
-
+.padding-mergin {
+  @apply md:p-4 p-2;
+}
 .flex-center {
   @apply flex items-center justify-center;
 }
 
 .flex-between {
   @apply flex items-center justify-between;
+}
+
+.btn {
+  @apply px-4 py-2 mt-3 dark:bg-text bg-primary dark:text-primary transition-all text-text rounded-xl hover:scale-110;
+}
+
+.darkmode {
+  @apply dark:bg-primary bg-text dark:text-text text-primary;
 }
