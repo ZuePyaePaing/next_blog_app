@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Card = () => {
   return (
@@ -22,7 +23,10 @@ const Card = () => {
           non cupiditate laudantium accusantium illo maiores accusamus natus
           suscipit quibusdam?
         </p>
-        <button className=" btn">Read More</button>
+        <Link href={'/blog?cart=cart'}>
+       
+          <button className=" btn">Read More</button>
+        </Link>
       </div>
     </div>
   );

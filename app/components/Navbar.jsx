@@ -39,7 +39,7 @@ const Navbar = () => {
           <div
             className={`absolute w-[230px] ${
               open ? "-right-6" : "-right-[350px]"
-            } top-[42px] dark:bg-primary bg-gray-400 md:hidden flex flex-col p-4 text-base items-start gap-y-3 transition-all duration-200`}
+            } top-[42px] dark:bg-primary bg-gray-400 md:hidden flex flex-col p-4 text-base items-start gap-y-3 transition-all duration-200 z-30`}
           >
             {navLinks.map((link) => (
               <Link
